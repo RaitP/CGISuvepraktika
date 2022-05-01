@@ -86,10 +86,10 @@ aken = Tk()
 # lisan aknale kordinaadi sisestuse
 kordinaadiSisestus = Label(text="Sisestage kordinaadid ", font=50)
 kordinaadiSisestus.grid(row=0,column=0)
-kordinaadidLongitude = Entry()
-kordinaadidLongitude.grid(row=0,column=1)
 kordinaadidLatitude = Entry()
-kordinaadidLatitude.grid(row=0,column=2)
+kordinaadidLatitude.grid(row=0,column=1)
+kordinaadidLongitude = Entry()
+kordinaadidLongitude.grid(row=0,column=2)
 
 # lisan aknale kuupäeva sisestuse
 aastaSisestus = Label(text="aasta", font=50)
